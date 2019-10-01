@@ -1,0 +1,20 @@
+system logowanie (login, has³o, status, guzik)
+³¹czenie z baz¹ danych
+has³o szyfrowane
+
+unikatowy login
+status: aktywny, nieaktywny, usuniêty
+system oparty na sesjê
+2 panele
+	u¿ytkownik
+	administrator
+zabezpieczenie przed wejœciem na strony zabezpieczeñ
+projekt bazy danych
+dokumentacja
+git -> systematyczna praca
+responsywna strona www
+
+szablon strony www - koniec listopada
+projekt bazy - 15 listopada
+system logowania - do ferii
+projekt - 15 maja? (raczej do koñca marca)
