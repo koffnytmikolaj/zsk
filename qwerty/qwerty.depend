@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1573719221 source:c:\users\student\desktop\qwerty\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+
