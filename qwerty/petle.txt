@@ -1,0 +1,3 @@
+Dla sortowania przez kopcowanie
+Liczba krokow: 9
+Czas sortowania: 0 ms
