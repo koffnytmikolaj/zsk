@@ -62,6 +62,72 @@
     }
     echo "<hr>";
 
+
+    function tripletab ($array){
+        echo "<ol>";
+        foreach ($array as $continent => $value){
+            echo "<li>", $continent, "</li><ul>";
+            foreach ($value as $country => $value2){
+                echo "<li>", $country, "</li><ul>";
+                foreach ($value2 as $information => $value3){
+                    echo "<li>", $information, ": ", $value3, "</li>";
+                }
+                echo "</ul>";
+            }
+            echo "</ul>";
+        }
+        echo "</ol>";
+    }
+
+
+    $world = array(
+        "Europe" => array(
+            "Poland" => array(
+                "Capital" => "Warsaw",
+                "Population" => 38000000
+            ),
+            "France" => array(
+                "Capital" => "Paris",
+                "Population" => 67000000
+            ),
+            "Germany" => array(
+                "Capital" => "Berlin",
+                "Population" => 83000000
+            )
+        ),
+        "Asia" => array(
+            "China" => array(
+                "Capital" => "Beijing",
+                "Population" => 1420000000
+            ),
+            "Japan" => array(
+                "Capital" => "Tokyo",
+                "Population" => 125500000
+            ),
+            "South Korea" => array(
+                "Capital" => "Seoul",
+                "Population" => 51000000
+            )
+        ),
+        "North America" => array(
+            "Canada" => array(
+                "Capital" => "Ottawa",
+                "Population" => 36700000
+            ),
+            "United States of America" => array(
+                "Capital" => "Washington",
+                "Population" => 326000000
+            ),
+            "Mexico" => array(
+                "Capital" => "Mexico",
+                "Population" => 124500000
+            )
+        )
+    );
+
+    tripletab($world);
+    echo "<hr>";
+    
     /*Napisać funkcję wyświetlającą tablicę 3-wymiarową*/
 
 ####################################################################
