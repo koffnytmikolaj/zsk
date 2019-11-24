@@ -1,0 +1,166 @@
+body{
+    height: 100%;
+}
+
+footer{
+    clear: both;
+    margin: 50px auto;
+    position: relative;
+    text-align: center;
+}
+
+header a, header a:hover{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header{
+    margin-bottom: 30px;
+}
+
+input{
+    box-shadow: 0 0 5px #0267BF;
+}
+
+ol, ol ul{
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+ol > li > ul{
+    display: none;
+}
+
+ol > li:hover > div{
+    cursor: help;
+    text-decoration: none;
+}
+
+ol > li:hover > ul{
+    display: block;
+}
+
+p{
+    margin: 20px 0 5px 0;
+}
+
+
+.author{
+    font-style: italic;
+    text-align: right;
+}
+
+.faq_answer, .faq_question{
+    border-style: none;
+    border-radius: 7px;
+    box-shadow: 0 0 5px grey;
+    padding: 5px;
+}
+
+.faq_answer{
+    background-color: #5bc0de;
+    width: 80%;
+}
+
+.faq_question{
+    background-color: #027BE6;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.login_button, .navigation_pages{
+    border-style: none;
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 2px;
+    text-align: center;
+}
+
+.login_button{
+    background-color: #012240;
+}
+
+.navigation_pages{
+    background-color: #0267BF;
+}
+
+.login_input{
+    border-radius: 6px;
+    padding: 2px;
+}
+
+.page_info{
+    background-color: #5ABDFF;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 0 0 10px grey;
+    color: #1b1e24;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.page_info div, .page_info a{
+    color: white;
+}
+
+.page_info > p{
+    text-indent: 40px;
+    text-align: justify;
+}
+
+.separator{
+    width: 1px;
+    background-color: #0389FF;
+}
+
+
+#communication_data p{
+    text-align: right;
+}
+
+#faq_field > ol > li > div:hover, .page_info a:hover{
+    font-weight: bold;
+}
+
+#fieldset_header{
+    background: #012240;
+    border-radius: 10px 10px 0 0;
+    border-style: none;
+    padding: 20px 0;
+}
+
+#log_in{
+    background-color: #0389FF;
+    border-style: none;
+    border-radius: 7px;
+    color: white;
+    margin-top: 5px;
+    padding: 8px;
+    width: 40%;
+    margin: 20px 0;
+}
+
+#log_in:hover{
+    background-color: #5bc0de;
+    font-weight: bold;
+}
+
+
+#login_field{
+    background-color: #027BE6;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 0 0 10px grey;
+    color: white;
+    text-align: center;
+}
+
+#login_field a{
+    font-size: smaller;
+    color: white;
+}
+
+#login_field a:hover{
+    color: #5bc0de;
+}
