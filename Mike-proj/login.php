@@ -1,6 +1,7 @@
 <?php
     require("elements/head.php");
 ?>
+        <meta name="description" content="EngToTech: Zaloguj się i rozpocznij nowy kurs nauki języka angielskiego">
         <title>EngToTech - Logowanie</title>
     </head>
     <body>

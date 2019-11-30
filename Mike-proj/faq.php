@@ -1,6 +1,7 @@
 <?php
     require("elements/head.php");
 ?>
+        <meta name="description" content="EngToTech: Masz pytanie dotyczące serwisu? Odszukaj rozwiązanie problemu i rozpocznij nowy kurs nauki języka angielskiego">
         <title>EngToTech - FAQ</title>
     </head>
     <body>

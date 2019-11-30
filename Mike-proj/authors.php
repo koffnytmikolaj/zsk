@@ -1,6 +1,7 @@
 <?php
     require("elements/head.php");
 ?>
+        <meta name="description" content="EngToTech: Poznaj autorów strony i rozpocznij nowy kurs nauki języka angielskiego">
         <title>EngToTech - Twórcy</title>
     </head>
     <body>
